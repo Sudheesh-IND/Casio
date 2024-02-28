@@ -1,0 +1,249 @@
+
+.img-portion{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.detail-portion{
+    padding: 100px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    text-align: start;
+    justify-content: center;
+    flex-direction: column;
+}
+.buy-btn{
+    margin-top: 20px;
+    font-size: 12px;
+    height: 50px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    border: 0;
+    outline: 0;
+    background-color: black;
+    color: white;
+    
+}
+.buy-btn:hover{
+    background-color: rgba(0, 0, 0, 0.813);
+    color: white;
+}
+.fav-btn{
+    margin-top: 20px;
+    font-size: 12px;
+    height: 50px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    outline: 1px solid rgb(128, 128, 128);
+   
+    background-color: white;
+}
+
+
+.detail-portion h2{
+    font-weight: 800;
+    color: black;
+    font-size: 3rem;
+    letter-spacing: 3px;
+}
+.detail-portion h6{
+    font-weight: 600;
+    color: black;
+}
+.detail-portion p{
+    font-size: 12px;
+    color: black;
+}
+.detail-portion h4{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.login-part{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+.form-part{
+    width: 100%;
+  
+    outline: 0.5px solid black;
+    padding: 50px;
+    display: flex;
+    text-align: start;
+    justify-content: center;
+    flex-direction: column;
+}
+input{
+    height: 50px;
+}
+.form-part h4{
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 900;
+    color: black;
+    font-size: 1.3rem;
+}
+.cart-products{
+   min-height: 250px;
+   max-height: 100%;
+ 
+}
+.cart-image{
+    padding: 20px;
+}
+.cart-products img{
+    height: 200px;
+}
+.cart-details{
+    display: flex;
+    text-align: start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 250px;
+   
+}
+.cart-details h4{
+    color: black;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.cart-details p{
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.count-portion{
+    width: 40px;
+    height: 30px;
+    background-color: bisque;
+}
+.count-portion input{
+    width: 100%;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    background-color: bisque;
+}
+.cart-increment button{
+    width: 30px;
+    height: 30px;
+  
+    text-align: center;
+    
+    outline: none;
+    border: none;
+    
+}
+
+.cart-details h5{
+    color: black;
+}
+
+.address-portion{
+    outline: 1px solid gray;
+    padding: 20px;
+}
+.price-portion{
+    width: 100%;
+    outline: 1px solid gray;
+    padding: 20px;
+}
+.price-portion-sub{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.product-portion{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.product-image img{
+    width: 100%;
+    height: 100%;
+}
+.product-details{
+    width: 100%;
+}
+.summary{
+    outline: 1px solid gray;
+    padding: 20px;
+}
+
+.address-portion i{
+   color: white;
+}
+.profile{
+    border: 1px solid black;
+    width: 600px;
+}
+.pro-name{
+    display: flex;
+    text-align: center;
+   
+    flex-direction: row;
+}
+.pro-pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.profile h2{
+    color: black;
+    font-weight: 900;
+}
+.pro-pic h1{
+    color: white;
+    font-size: 3rem;
+    margin-top: 10px;
+}
+.pro-nme{
+    display: flex;
+    text-align: start;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+.pro-nme h3{
+    margin-left: 20px;
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: black;
+    
+}
+
+.pro-name h6{
+    margin-left: 20px;
+}
+.order-portion h2{
+    color: black;
+    font-weight: 800;
+}
+.order-portion-2{
+    display: flex;
+  
+    flex-direction: row;
+}
+.order-portion-2 h4,h6{
+    color: black;
+    font-weight: 800;
+}
